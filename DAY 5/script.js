@@ -6,6 +6,6 @@
 
 
 let disp= () => {
-    console.log("welcomee to arrow functionn");
+    console.log("welcome to arrow function");
 }
 disp();
