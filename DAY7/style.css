@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+#top{
+    background-color: black;
+    color: antiquewhite;
+    border: 10px;
+}
+h1{
+    background-color: turquoise;
+    color: black;
+}
+*{
+    text-decoration: none;
+}
