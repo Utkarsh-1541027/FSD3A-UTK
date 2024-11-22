@@ -5,12 +5,8 @@ async function fetchdata() {
       data.forEach((element) => {
         let h1= document.createElement("h1");
         h1.textContent = element.node_id;
-        let a = document.createElement("a");
-        a.textContent= element.node_id;
-        a.setAttribute("href", element.html_url);
         let top= document.getElementById("top");
         top.appendChild(h1);
-        top.appendChild(a);
       });
     }
     catch (error) {

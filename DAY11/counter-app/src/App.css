@@ -1,0 +1,71 @@
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+
+/* Container */
+.count-app {
+  text-align: center;
+  margin: 50px auto;
+  width: 50%;
+  padding: 20px;
+  border: 2px solid #8a2be2;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Counter display */
+.count-display {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4b0082;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 3px solid #9932cc;
+  border-radius: 8px;
+  background-color: #fafad2;
+}
+
+/* Button container */
+.count-body {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Buttons */
+.count-btn {
+  font-size: 1.2rem;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Individual button styles */
+.count-btn:nth-child(1) {
+  background-color: #28a745; /* Green for increment */
+}
+
+.count-btn:nth-child(2) {
+  background-color: #dc3545; /* Red for decrement */
+}
+
+.count-btn:nth-child(3) {
+  background-color: #ffc107; /* Yellow for reset */
+}
+
+/* Hover effects */
+.count-btn:hover {
+  transform: scale(1.1);
+  border-color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
